@@ -16,3 +16,4 @@ def  Kamp():
     print(kamp)
 
 Kamp()
+
