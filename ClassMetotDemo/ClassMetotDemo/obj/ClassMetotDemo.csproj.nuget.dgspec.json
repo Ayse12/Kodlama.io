@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\XXX\\ClassMetotDemo\\ClassMetotDemo\\ClassMetotDemo.csproj": {}
+    "D:\\Proje\\Kodlama.io\\ClassMetotDemo\\ClassMetotDemo\\ClassMetotDemo.csproj": {}
   },
   "projects": {
-    "D:\\XXX\\ClassMetotDemo\\ClassMetotDemo\\ClassMetotDemo.csproj": {
+    "D:\\Proje\\Kodlama.io\\ClassMetotDemo\\ClassMetotDemo\\ClassMetotDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\XXX\\ClassMetotDemo\\ClassMetotDemo\\ClassMetotDemo.csproj",
+        "projectUniqueName": "D:\\Proje\\Kodlama.io\\ClassMetotDemo\\ClassMetotDemo\\ClassMetotDemo.csproj",
         "projectName": "ClassMetotDemo",
-        "projectPath": "D:\\XXX\\ClassMetotDemo\\ClassMetotDemo\\ClassMetotDemo.csproj",
+        "projectPath": "D:\\Proje\\Kodlama.io\\ClassMetotDemo\\ClassMetotDemo\\ClassMetotDemo.csproj",
         "packagesPath": "C:\\Users\\Asus FX\\.nuget\\packages\\",
-        "outputPath": "D:\\XXX\\ClassMetotDemo\\ClassMetotDemo\\obj\\",
+        "outputPath": "D:\\Proje\\Kodlama.io\\ClassMetotDemo\\ClassMetotDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

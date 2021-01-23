@@ -1,0 +1,13 @@
+C:\Users\Asus FX\source\repos\CSharp\Constructors\bin\Debug\netcoreapp3.1\Constructors.exe
+C:\Users\Asus FX\source\repos\CSharp\Constructors\bin\Debug\netcoreapp3.1\Constructors.deps.json
+C:\Users\Asus FX\source\repos\CSharp\Constructors\bin\Debug\netcoreapp3.1\Constructors.runtimeconfig.json
+C:\Users\Asus FX\source\repos\CSharp\Constructors\bin\Debug\netcoreapp3.1\Constructors.runtimeconfig.dev.json
+C:\Users\Asus FX\source\repos\CSharp\Constructors\bin\Debug\netcoreapp3.1\Constructors.dll
+C:\Users\Asus FX\source\repos\CSharp\Constructors\bin\Debug\netcoreapp3.1\Constructors.pdb
+C:\Users\Asus FX\source\repos\CSharp\Constructors\obj\Debug\netcoreapp3.1\Constructors.csprojAssemblyReference.cache
+C:\Users\Asus FX\source\repos\CSharp\Constructors\obj\Debug\netcoreapp3.1\Constructors.AssemblyInfoInputs.cache
+C:\Users\Asus FX\source\repos\CSharp\Constructors\obj\Debug\netcoreapp3.1\Constructors.AssemblyInfo.cs
+C:\Users\Asus FX\source\repos\CSharp\Constructors\obj\Debug\netcoreapp3.1\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\Asus FX\source\repos\CSharp\Constructors\obj\Debug\netcoreapp3.1\Constructors.dll
+C:\Users\Asus FX\source\repos\CSharp\Constructors\obj\Debug\netcoreapp3.1\Constructors.pdb
+C:\Users\Asus FX\source\repos\CSharp\Constructors\obj\Debug\netcoreapp3.1\Constructors.genruntimeconfig.cache
