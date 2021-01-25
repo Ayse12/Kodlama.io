@@ -1,0 +1,10 @@
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\bin\Debug\RecapDemo1.exe.config
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\bin\Debug\RecapDemo1.exe
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\bin\Debug\RecapDemo1.pdb
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\obj\Debug\RecapDemo1.csprojAssemblyReference.cache
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\obj\Debug\RecapDemo1.Form1.resources
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\obj\Debug\RecapDemo1.Properties.Resources.resources
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\obj\Debug\RecapDemo1.csproj.GenerateResource.cache
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\obj\Debug\RecapDemo1.csproj.CoreCompileInputs.cache
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\obj\Debug\RecapDemo1.exe
+D:\Proje\Kodlama.io\CSharp\RecapDemo1\obj\Debug\RecapDemo1.pdb
