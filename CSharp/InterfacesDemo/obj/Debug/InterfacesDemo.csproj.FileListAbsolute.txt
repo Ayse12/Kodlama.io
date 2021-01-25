@@ -1,0 +1,6 @@
+D:\Proje\Kodlama.io\CSharp\InterfacesDemo\bin\Debug\InterfacesDemo.exe.config
+D:\Proje\Kodlama.io\CSharp\InterfacesDemo\bin\Debug\InterfacesDemo.exe
+D:\Proje\Kodlama.io\CSharp\InterfacesDemo\bin\Debug\InterfacesDemo.pdb
+D:\Proje\Kodlama.io\CSharp\InterfacesDemo\obj\Debug\InterfacesDemo.csproj.CoreCompileInputs.cache
+D:\Proje\Kodlama.io\CSharp\InterfacesDemo\obj\Debug\InterfacesDemo.exe
+D:\Proje\Kodlama.io\CSharp\InterfacesDemo\obj\Debug\InterfacesDemo.pdb
