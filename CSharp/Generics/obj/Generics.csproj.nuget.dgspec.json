@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus FX\\source\\repos\\CSharp\\Generics\\Generics.csproj": {}
+    "D:\\Proje\\Kodlama.io\\CSharp\\Generics\\Generics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus FX\\source\\repos\\CSharp\\Generics\\Generics.csproj": {
+    "D:\\Proje\\Kodlama.io\\CSharp\\Generics\\Generics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus FX\\source\\repos\\CSharp\\Generics\\Generics.csproj",
+        "projectUniqueName": "D:\\Proje\\Kodlama.io\\CSharp\\Generics\\Generics.csproj",
         "projectName": "Generics",
-        "projectPath": "C:\\Users\\Asus FX\\source\\repos\\CSharp\\Generics\\Generics.csproj",
+        "projectPath": "D:\\Proje\\Kodlama.io\\CSharp\\Generics\\Generics.csproj",
         "packagesPath": "C:\\Users\\Asus FX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus FX\\source\\repos\\CSharp\\Generics\\obj\\",
+        "outputPath": "D:\\Proje\\Kodlama.io\\CSharp\\Generics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

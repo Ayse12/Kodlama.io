@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proje\\Kodlama.io\\CSharp\\Constructors\\Constructors.csproj": {}
+    "D:\\Proje\\Kodlama.io\\CSharp\\Classes\\Classes.csproj": {}
   },
   "projects": {
-    "D:\\Proje\\Kodlama.io\\CSharp\\Constructors\\Constructors.csproj": {
+    "D:\\Proje\\Kodlama.io\\CSharp\\Classes\\Classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proje\\Kodlama.io\\CSharp\\Constructors\\Constructors.csproj",
-        "projectName": "Constructors",
-        "projectPath": "D:\\Proje\\Kodlama.io\\CSharp\\Constructors\\Constructors.csproj",
+        "projectUniqueName": "D:\\Proje\\Kodlama.io\\CSharp\\Classes\\Classes.csproj",
+        "projectName": "Classes",
+        "projectPath": "D:\\Proje\\Kodlama.io\\CSharp\\Classes\\Classes.csproj",
         "packagesPath": "C:\\Users\\Asus FX\\.nuget\\packages\\",
-        "outputPath": "D:\\Proje\\Kodlama.io\\CSharp\\Constructors\\obj\\",
+        "outputPath": "D:\\Proje\\Kodlama.io\\CSharp\\Classes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

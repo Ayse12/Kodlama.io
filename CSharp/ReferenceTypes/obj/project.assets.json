@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus FX\\source\\repos\\CSharp\\ReferenceTypes\\ReferenceTypes.csproj",
+      "projectUniqueName": "D:\\Proje\\Kodlama.io\\CSharp\\ReferenceTypes\\ReferenceTypes.csproj",
       "projectName": "ReferenceTypes",
-      "projectPath": "C:\\Users\\Asus FX\\source\\repos\\CSharp\\ReferenceTypes\\ReferenceTypes.csproj",
+      "projectPath": "D:\\Proje\\Kodlama.io\\CSharp\\ReferenceTypes\\ReferenceTypes.csproj",
       "packagesPath": "C:\\Users\\Asus FX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus FX\\source\\repos\\CSharp\\ReferenceTypes\\obj\\",
+      "outputPath": "D:\\Proje\\Kodlama.io\\CSharp\\ReferenceTypes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
