@@ -1,0 +1,7 @@
+D:\Proje\Kodlama.io\CSharp\Interfaces\bin\Debug\Interfaces.exe.config
+D:\Proje\Kodlama.io\CSharp\Interfaces\bin\Debug\Interfaces.exe
+D:\Proje\Kodlama.io\CSharp\Interfaces\bin\Debug\Interfaces.pdb
+D:\Proje\Kodlama.io\CSharp\Interfaces\obj\Debug\Interfaces.csprojAssemblyReference.cache
+D:\Proje\Kodlama.io\CSharp\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+D:\Proje\Kodlama.io\CSharp\Interfaces\obj\Debug\Interfaces.exe
+D:\Proje\Kodlama.io\CSharp\Interfaces\obj\Debug\Interfaces.pdb
