@@ -1,0 +1,12 @@
+D:\Proje\Kodlama.io\CSharp\Interfaces1\bin\Debug\netcoreapp3.1\Interfaces1.exe
+D:\Proje\Kodlama.io\CSharp\Interfaces1\bin\Debug\netcoreapp3.1\Interfaces1.deps.json
+D:\Proje\Kodlama.io\CSharp\Interfaces1\bin\Debug\netcoreapp3.1\Interfaces1.runtimeconfig.json
+D:\Proje\Kodlama.io\CSharp\Interfaces1\bin\Debug\netcoreapp3.1\Interfaces1.runtimeconfig.dev.json
+D:\Proje\Kodlama.io\CSharp\Interfaces1\bin\Debug\netcoreapp3.1\Interfaces1.dll
+D:\Proje\Kodlama.io\CSharp\Interfaces1\bin\Debug\netcoreapp3.1\Interfaces1.pdb
+D:\Proje\Kodlama.io\CSharp\Interfaces1\obj\Debug\netcoreapp3.1\Interfaces1.AssemblyInfoInputs.cache
+D:\Proje\Kodlama.io\CSharp\Interfaces1\obj\Debug\netcoreapp3.1\Interfaces1.AssemblyInfo.cs
+D:\Proje\Kodlama.io\CSharp\Interfaces1\obj\Debug\netcoreapp3.1\Interfaces1.csproj.CoreCompileInputs.cache
+D:\Proje\Kodlama.io\CSharp\Interfaces1\obj\Debug\netcoreapp3.1\Interfaces1.dll
+D:\Proje\Kodlama.io\CSharp\Interfaces1\obj\Debug\netcoreapp3.1\Interfaces1.pdb
+D:\Proje\Kodlama.io\CSharp\Interfaces1\obj\Debug\netcoreapp3.1\Interfaces1.genruntimeconfig.cache
