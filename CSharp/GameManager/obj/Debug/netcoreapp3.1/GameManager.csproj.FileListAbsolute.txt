@@ -1,0 +1,12 @@
+D:\Proje\Kodlama.io\CSharp\GameManager\obj\Debug\netcoreapp3.1\GameManager.AssemblyInfoInputs.cache
+D:\Proje\Kodlama.io\CSharp\GameManager\obj\Debug\netcoreapp3.1\GameManager.AssemblyInfo.cs
+D:\Proje\Kodlama.io\CSharp\GameManager\obj\Debug\netcoreapp3.1\GameManager.csproj.CoreCompileInputs.cache
+D:\Proje\Kodlama.io\CSharp\GameManager\bin\Debug\netcoreapp3.1\GameManager.exe
+D:\Proje\Kodlama.io\CSharp\GameManager\bin\Debug\netcoreapp3.1\GameManager.deps.json
+D:\Proje\Kodlama.io\CSharp\GameManager\bin\Debug\netcoreapp3.1\GameManager.runtimeconfig.json
+D:\Proje\Kodlama.io\CSharp\GameManager\bin\Debug\netcoreapp3.1\GameManager.runtimeconfig.dev.json
+D:\Proje\Kodlama.io\CSharp\GameManager\bin\Debug\netcoreapp3.1\GameManager.dll
+D:\Proje\Kodlama.io\CSharp\GameManager\bin\Debug\netcoreapp3.1\GameManager.pdb
+D:\Proje\Kodlama.io\CSharp\GameManager\obj\Debug\netcoreapp3.1\GameManager.dll
+D:\Proje\Kodlama.io\CSharp\GameManager\obj\Debug\netcoreapp3.1\GameManager.pdb
+D:\Proje\Kodlama.io\CSharp\GameManager\obj\Debug\netcoreapp3.1\GameManager.genruntimeconfig.cache

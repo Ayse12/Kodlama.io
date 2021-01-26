@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces1", "Interfaces1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{3848C6E9-3E38-4331-B3FA-8261732686D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameManager", "GameManager\GameManager.csproj", "{5F30AFDA-329E-4D42-BF8C-CD5A13253ED5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{3848C6E9-3E38-4331-B3FA-8261732686D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3848C6E9-3E38-4331-B3FA-8261732686D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3848C6E9-3E38-4331-B3FA-8261732686D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F30AFDA-329E-4D42-BF8C-CD5A13253ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F30AFDA-329E-4D42-BF8C-CD5A13253ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F30AFDA-329E-4D42-BF8C-CD5A13253ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F30AFDA-329E-4D42-BF8C-CD5A13253ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
