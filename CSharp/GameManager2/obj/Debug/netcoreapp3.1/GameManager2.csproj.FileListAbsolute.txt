@@ -1,0 +1,13 @@
+D:\Proje\Kodlama.io\CSharp\GameManager2\obj\Debug\netcoreapp3.1\GameManager2.csprojAssemblyReference.cache
+D:\Proje\Kodlama.io\CSharp\GameManager2\obj\Debug\netcoreapp3.1\GameManager2.AssemblyInfoInputs.cache
+D:\Proje\Kodlama.io\CSharp\GameManager2\obj\Debug\netcoreapp3.1\GameManager2.AssemblyInfo.cs
+D:\Proje\Kodlama.io\CSharp\GameManager2\obj\Debug\netcoreapp3.1\GameManager2.csproj.CoreCompileInputs.cache
+D:\Proje\Kodlama.io\CSharp\GameManager2\bin\Debug\netcoreapp3.1\GameManager2.exe
+D:\Proje\Kodlama.io\CSharp\GameManager2\bin\Debug\netcoreapp3.1\GameManager2.deps.json
+D:\Proje\Kodlama.io\CSharp\GameManager2\bin\Debug\netcoreapp3.1\GameManager2.runtimeconfig.json
+D:\Proje\Kodlama.io\CSharp\GameManager2\bin\Debug\netcoreapp3.1\GameManager2.runtimeconfig.dev.json
+D:\Proje\Kodlama.io\CSharp\GameManager2\bin\Debug\netcoreapp3.1\GameManager2.dll
+D:\Proje\Kodlama.io\CSharp\GameManager2\bin\Debug\netcoreapp3.1\GameManager2.pdb
+D:\Proje\Kodlama.io\CSharp\GameManager2\obj\Debug\netcoreapp3.1\GameManager2.dll
+D:\Proje\Kodlama.io\CSharp\GameManager2\obj\Debug\netcoreapp3.1\GameManager2.pdb
+D:\Proje\Kodlama.io\CSharp\GameManager2\obj\Debug\netcoreapp3.1\GameManager2.genruntimeconfig.cache
