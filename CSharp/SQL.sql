@@ -50,6 +50,104 @@ UPDATE Customers
 SET ContactName='Alfred Schmidt', City='Frankfurt'
 WHERE CustomerID=1;
 
+--CustomerName="Alfreds Futterkiste olan müşteriyi sil.
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+
+--Tablodaki başta bulunan 3 veriyi ekrana getirir.
+SELECT TOP 3 * FROM Customers;
+
+--Ürünler tablosundaki Price kolonundaki minumum değeri getirme
+SELECT MIN(UnitPrice) AS SmallestPrice
+FROM Products;
+
+--Ürünler tablosundaki Price kolonundaki maksimum değeri getirme
+SELECT max(UnitPrice) AS SmallestPrice FROM Products;
+
+--Product tablosundaki ProductId lerin  sayısı.
+SELECT COUNT(ProductID) FROM Products;
+
+--Ortalama hesaplamak için kulllanılır
+SELECT AVG(UnitPrice) FROM Products;
+
+--Tüm product tablosundaki fiyatlrın toplamını getirir.
+SELECT SUM(UnitPrice) FROM Products
+
+--------------LIKE OPERATÖR------------------
+
+--A ile başlayan müşterilerin isimlerini getirir.
+SELECT * FROM Customers WHERE CustomerName LIKE 'a%'
+
+--A ile biten müşterilerin isimlerini getirir.
+SELECT * FROM Customers WHERE CustomerName LIKE '%a'
+
+--İçerisinde or geçen isimleri getirme.
+SELECT * FROM Customers WHERE CustomerName LIKE '%or%'
+
+--2. harfi r olan müşteri isimleri getirme.
+SELECT * FROM Customers WHERE CustomerName LIKE '_r%'
+
+--A ile başlayıp en az 3 karakterli isimleri getir.
+SELECT * FROM Customers WHERE CustomerName LIKE 'a__%'
+
+--A ile başlayan ve o ile biten isimleri getir.
+SELECT * FROM Customers WHERE ContactName LIKE 'a%o'
+
+--A ile başlamayan müşterilerin isimlerini getirir.
+SELECT * FROM Customers WHERE CustomerName NOT LIKE 'a%';
+
+--Müşteriler tablosundaki City kolonu b , s , p ile başlayanları getir.
+SELECT * FROM Customers WHERE City LIKE '[bsp]%';
+
+--a , b , c , d ile başlayanları getir.
+SELECT * FROM Customers WHERE City LIKE '[a-d]%';
+
+--Müşteriler tablosundaki City kolonu b , s , p ile başlamayanları getir.
+SELECT * FROM Customers WHERE City LIKE '[!bsp]%';
+SELECT * FROM Customers WHERE City NOT LIKE '[bsp]%';
+--------------SON------------------
+
+--Ülkesi Germany France UK olan müşterileri getir.
+SELECT * FROM Customers WHERE Country IN ('Germany', 'France', 'UK');
+
+-- Ürünlerin fiyatı 10 ve 20 arasında olan ürünleri getir.
+SELECT * FROM Products WHERE Price BETWEEN 10 AND 20;
+
+SELECT CustomerID AS ID, ContactName AS Customers FROM Customers;
+
+--Eşleşmiş 2 tablonun ortak verileri.
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate FROM Orders
+INNER JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID;
+
+--Left Join ----> Soldaki tüm tablolar ve sağdakinde eşleşmiş teblolar geri döner.
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders
+ON Customers.CustomerID=Orders.CustomerID
+ORDER BY Customers.CustomerName;
+
+--Customers ile Suppliers City kolonlarınındaki veriler birleştirilerek (Tekrar olmadan) getirilir.
+SELECT City FROM Customers
+UNION
+SELECT City FROM Suppliers
+ORDER BY City;
+
+--2 Tablodaki City'deki tüm değerleri getirir. (All ifadesinden)
+SELECT City FROM Customers
+UNION ALL
+SELECT City FROM Suppliers
+ORDER BY City;
+
+--Ülkeleri kendi içinde gruplandırarak O ülkelere ait veri bulunduran müşterilerin id'sini getirir.
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country;
+
+--Toplam ülkelerin içindeki müşteri sayısının 5 üzerinde olan verileri getirme.
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
 
 
 
