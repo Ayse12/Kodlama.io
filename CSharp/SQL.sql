@@ -167,6 +167,27 @@ SELECT ProductName
 FROM Products
 WHERE ProductID = ANY (SELECT ProductID FROM [Order Details] WHERE Quantity = 10);
 
+--SELECT INTO deyimi, bir tablodaki verileri yeni bir tabloya kopyalar.
+/*
+SELECT *
+INTO newtable [IN externaldb]
+FROM oldtable
+WHERE condition; 
+*/
+
+--Tüm sütunları bir tablodan başka bir tabloya kopyalamak
+--"Tedarikçiler" i "Müşteriler" e kopyalar (verilerle doldurulmayan sütunlar NULL içerecektir):
+INSERT INTO Customers (CustomerName, City, Country)
+SELECT SupplierName, City, Country FROM Suppliers;
+
+--CASE if else else if gibi bir yapı var
+SELECT OrderID, Quantity,
+CASE
+    WHEN Quantity > 30 THEN 'The quantity is greater than 30'
+    WHEN Quantity = 30 THEN 'The quantity is 30'
+    ELSE 'The quantity is under 30'
+END AS QuantityText
+FROM OrderDetails;
 
 
 
