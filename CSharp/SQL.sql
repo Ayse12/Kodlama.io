@@ -143,15 +143,29 @@ SELECT COUNT(CustomerID), Country
 FROM Customers
 GROUP BY Country;
 
---Toplam ülkelerin içindeki müşteri sayısının 5 üzerinde olan verileri getirme.
+--Toplam ülkelerin içindeki müşteri sayısının 5 üzerinde olan verileri getirme. (Having = Şart)
 SELECT COUNT(CustomerID), Country
 FROM Customers
 GROUP BY Country
 HAVING COUNT(CustomerID) > 5;
 
+--EXISTS operatörü, bir alt sorgudaki herhangi bir kaydın varlığını test etmek için kullanılır.
+--20'den düşük ürün fiyatı olan tedarikçileri listeler.Bir veya daha fazla veri olur ise true değerini döndürür.
+SELECT Suppliers
+FROM Suppliers
+WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.SupplierID AND Price < 20)
 
+--ALL 
+--Tüm alt sorgu değerleri koşulu karşılıyorsa ALL operatörü TRUE döndürür. Aşağıdaki sorgu Quantity = 10 olan tüm ProductName leri geri döndürmesi gerekiyor. Hepsi 10 olmadığı için FALSE döner.
+seLECT ProductName
+FROM Products
+WHERE ProductID = ALL (SELECT ProductID FROM [Order Details] WHERE Quantity = 10);
 
-
+--ANY
+--Herhangi bir değer oluyorsa geriye cevap döner
+SELECT ProductName
+FROM Products
+WHERE ProductID = ANY (SELECT ProductID FROM [Order Details] WHERE Quantity = 10);
 
 
 
