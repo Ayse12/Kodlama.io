@@ -1,0 +1,12 @@
+D:\Proje\Kodlama.io\CSharp\LinqProject\bin\Debug\netcoreapp3.1\LinqProject.exe
+D:\Proje\Kodlama.io\CSharp\LinqProject\bin\Debug\netcoreapp3.1\LinqProject.deps.json
+D:\Proje\Kodlama.io\CSharp\LinqProject\bin\Debug\netcoreapp3.1\LinqProject.runtimeconfig.json
+D:\Proje\Kodlama.io\CSharp\LinqProject\bin\Debug\netcoreapp3.1\LinqProject.runtimeconfig.dev.json
+D:\Proje\Kodlama.io\CSharp\LinqProject\bin\Debug\netcoreapp3.1\LinqProject.dll
+D:\Proje\Kodlama.io\CSharp\LinqProject\bin\Debug\netcoreapp3.1\LinqProject.pdb
+D:\Proje\Kodlama.io\CSharp\LinqProject\obj\Debug\netcoreapp3.1\LinqProject.AssemblyInfoInputs.cache
+D:\Proje\Kodlama.io\CSharp\LinqProject\obj\Debug\netcoreapp3.1\LinqProject.AssemblyInfo.cs
+D:\Proje\Kodlama.io\CSharp\LinqProject\obj\Debug\netcoreapp3.1\LinqProject.csproj.CoreCompileInputs.cache
+D:\Proje\Kodlama.io\CSharp\LinqProject\obj\Debug\netcoreapp3.1\LinqProject.dll
+D:\Proje\Kodlama.io\CSharp\LinqProject\obj\Debug\netcoreapp3.1\LinqProject.pdb
+D:\Proje\Kodlama.io\CSharp\LinqProject\obj\Debug\netcoreapp3.1\LinqProject.genruntimeconfig.cache
