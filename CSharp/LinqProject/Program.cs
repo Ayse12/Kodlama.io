@@ -30,10 +30,28 @@ namespace LinqProject
 
             //AscDescTest(products);
 
-            testResult(products);
+            //ClassicLinq(products);
+
+            UsingJoin(categories, products);
         }
 
-        private static void testResult(List<Product> products)
+        private static void UsingJoin(List<Category> categories, List<Product> products)
+        {
+            var result = from p in products
+                         join c in categories
+                         on p.CategoryId equals c.CategoryId
+                         where p.UnitPrice > 5000
+                         orderby p.UnitPrice descending
+                         select new ProductDTO { ProductId = p.ProductId, CategoryName = c.CategoryName, ProductName = p.ProductName, UnitPrice = p.UnitPrice };
+            foreach (var productDto in result)
+            {
+                Console.WriteLine(productDto.ProductName + " " + productDto.CategoryName);
+
+                ///Console.WriteLine("{0} ---- {1}",productDto.ProductName,productDto.CategoryName);
+            }
+        }
+
+        private static void ClassicLinq(List<Product> products)
         {
             var result = from p in products
                          where p.UnitPrice > 5000
@@ -87,24 +105,31 @@ namespace LinqProject
         }
 
         private static void Test(List<Product> products)
+        {
+            Console.WriteLine("Algoritmik-----------------");
+            foreach (var product in products)
             {
-                Console.WriteLine("Algoritmik-----------------");
-                foreach (var product in products)
-                {
-                    if (product.UnitPrice > 5000 && product.UnitsInStock > 3)
-                    {
-                        Console.WriteLine(product.ProductName);
-                    }
-
-                }
-                Console.WriteLine("Linq-----------");
-                var result = products.Where(p => p.UnitPrice > 4000 && p.UnitsInStock > 3);
-                foreach (var product in result)
+                if (product.UnitPrice > 5000 && product.UnitsInStock > 3)
                 {
                     Console.WriteLine(product.ProductName);
                 }
-            }
 
+            }
+            Console.WriteLine("Linq-----------");
+            var result = products.Where(p => p.UnitPrice > 4000 && p.UnitsInStock > 3);
+            foreach (var product in result)
+            {
+                Console.WriteLine(product.ProductName);
+            }
+        }
+
+    }
+    class ProductDTO
+    {
+        public int ProductId { get; set; }
+        public string CategoryName { get; set; }
+        public string ProductName { get; set; }
+        public decimal UnitPrice { get; set; }
     }
     class Product
     {
