@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameManager", "GameManager\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameManager2", "GameManager2\GameManager2.csproj", "{02F44DEF-F4E5-4879-A4DB-DAC38F0EEB06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{3752C532-7AC7-4B6A-8F6C-E2E66A9482B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqProject", "LinqProject\LinqProject.csproj", "{3752C532-7AC7-4B6A-8F6C-E2E66A9482B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{BB962316-26C1-499E-9E42-F55D65175167}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{3752C532-7AC7-4B6A-8F6C-E2E66A9482B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3752C532-7AC7-4B6A-8F6C-E2E66A9482B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3752C532-7AC7-4B6A-8F6C-E2E66A9482B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB962316-26C1-499E-9E42-F55D65175167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB962316-26C1-499E-9E42-F55D65175167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB962316-26C1-499E-9E42-F55D65175167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB962316-26C1-499E-9E42-F55D65175167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
